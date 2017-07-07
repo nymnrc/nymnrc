@@ -8,15 +8,15 @@ encoding: UTF-8
 markdown: kramdown
 highlighter: rouge
 kramdown:
-	input: GFM
-	hard_wrap: false
+  input: GFM
+  hard_wrap: false
 
 sass:
-	style: compressed
+  style: compressed
 
 # Gem settings
 gems:
-	- jekyll-sitemap
+  - jekyll-sitemap
 
 exclude:
-	- README.MD
+  - README.MD
