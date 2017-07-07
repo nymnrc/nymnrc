@@ -1,7 +1,7 @@
 # Site settings
 title: "Test Site GHP"
 name: "Empty Company"
-images: "./assets/images/"
+images: "./assets/images"
 url: "https://samuraiblood2.github.io"
 permalink: /:title/
 encoding: UTF-8
