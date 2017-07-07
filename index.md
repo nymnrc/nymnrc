@@ -1,6 +1,6 @@
 ---
 layout: default
 ---
-{{ name }}
+{{ site.name }}
 ==================
 Nothing much to see here, just dicking around with Jekyll.
