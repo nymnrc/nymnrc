@@ -1,31 +1,34 @@
-<!DOCTYPE html>
-	<html>
-		<!-- header -->
-		{% include header.html %}
-		
-		<!-- body -->
-		<body>
-			
-			<!-- navigation header -->
-			<nav>
-	    			<ul>
-	        			<li><a href="/">Home</a></li>
-			        	<li><a href="/about">About</a></li>
-					<li><a href="/contact">Contact Us</a></li>
-	    			</ul>
-			</nav>
-			
-			<!-- content -->
-			<div class="container">
-				{{ content }}
+<!DOCTYPE HTML>
+
+<html>
+	
+	<!-- head -->
+	{% include html_head.html %}
+	
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- header -->
+				{% include header.html %}
+
+				<!-- Main -->
+					<div id="main">
+						{{ content }}
+					</div>
 			</div>
-		</body>
-		
-		<!-- footer -->
+
+		<!-- Footer -->
 		{% include footer.html %}
-		
-		<!-- google analytics -->
-		<!--{% if site.github.environment == "dotcom" %}
-			{% include analytics.html %}
-		{% endif %}-->
-	</html>
+
+		<!-- BG -->
+		<div id="bg"></div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
