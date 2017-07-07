@@ -1,6 +1,7 @@
 # Site settings
 title: "Test Site GHP"
 name: Samurai
+description: Testing shit, because theres nothing else to do at 6:00 in the morning.
 images: "./assets/images/"
 url: "https://samuraiblood2.github.io"
 permalink: /:title/
