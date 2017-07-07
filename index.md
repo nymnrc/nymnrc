@@ -1,6 +1,6 @@
 ---
 layout: default
 ---
-Hello World!
+{{ name }}
 ==================
 Nothing much to see here, just dicking around with Jekyll.
