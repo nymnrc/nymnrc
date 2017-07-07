@@ -16,9 +16,5 @@ kramdown:
 sass:
   style: compressed
 
-# Gem settings
-gems:
-  - jekyll-sitemap
-
 exclude:
   - README.MD
