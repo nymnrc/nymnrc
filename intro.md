@@ -1,4 +1,5 @@
 ---
 layout: intro
-title: Intro
+title: Contact
+permalink: /contact/
 ---
