@@ -1,2 +1,4 @@
 name: Test Site GHP
 markdown: kramdown
+gems:
+  - jekyll-sitemap
