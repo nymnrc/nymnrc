@@ -1,6 +1,7 @@
 # Site settings
 title: "Test Site GHP"
 url: "https://samuraiblood2.github.io"
+permalink: /:title/
 
 # Markdown
 markdown: kramdown
