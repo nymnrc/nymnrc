@@ -3,4 +3,4 @@ layout: default
 ---
 {{ site.name }}
 ==================
-ssss
+The magic of diamonds
